@@ -1,0 +1,40 @@
+<html ng-app="psMovies">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-cloak>
+
+    <!-- <nav class="navbar navbar-default navbar-inverse" class="container-fluid">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">At The Movies</a>
+            </div>
+        </div>
+    </nav>
+    -->
+    <div class="media text-center" style="padding:15px">
+        <div class="media-left">
+            <a href="#">
+                <img alt="64x64" class="media-object" data-src="holder.js/64x64" style="width: 128px; height: 64px;" src="images/logo-sm.png" data-holder-rendered="true"> </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Fitness Challenge</h4> Welcome to the Corporate Fitness Works Step Challenge! 
+        </div>
+       
+    </div>
+    <div class="container">
+
+        <movie-list></movie-list>
+
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="ps-movies/module.js"></script>
+    <script src="ps-movies/movie-list.component.js"></script>
+    <script src="ps-movies/movie-rating.component.js"></script>
+</body>
+
+</html>

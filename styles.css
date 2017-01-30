@@ -1,0 +1,21 @@
+body{
+	padding:10px;
+	background-color: #ccccbb;
+}
+
+.ng-cloak {
+    display: none;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+    float: none;
+    margin: 0 auto;
+}
